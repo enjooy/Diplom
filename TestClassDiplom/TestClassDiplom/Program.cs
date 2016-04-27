@@ -11,19 +11,19 @@ namespace Diplomnaya
     {
         static void Main(string[] args)
         {
-            int n = 0;  // Номер задачи
+            int n = 1;  // Номер задачи
             switch (n)
             {
                 case 0:
-                    SMOn s1 = new SMOn(3, 20, 2, 6, 1, 2, 2);
+                    SMOn s1 = new SMOn( 3, 20, 2, 6, 1, 2, 2 );
                     s1.outUslZadach();
                     break;
                 case 1:
-                    SMOn s2 = new SMOn(2, 1.5, 1, 2, 1, 1, 2);
+                    SMOn s2 = new SMOn( 2, 1.5, 1, 2, 1, 1, 2 );
                     s2.outUslZadach();
                     break;
                 case 2:
-                    SMOnm s3 = new SMOnm(2,1,5,2,20,1,1,2);
+                    SMOnm s3 = new SMOnm( 2, 1, 5, 2, 20, 1, 1, 2 );
                     s3.outUslZadach();
                     break;
                 case 3:

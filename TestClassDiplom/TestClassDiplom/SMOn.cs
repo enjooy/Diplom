@@ -16,7 +16,8 @@ namespace Diplomnaya
         public double   ro;     // ro - приведенная интенсивность потока заявок или интенсивность нагрузки канала. Она выражает среднее число заявок, приходящее за среднее время обслуживания одной заявки.
         public double   potk;   // potk - Вероятность отказа
         public double   qu;     // qu - Относительная пропускная способность (Вероятность того, что заявка будет обслужена)
-        public double   absolut;// absolut - Абсолютная пропускная способность  
+        public double   absolut;// absolut - Абсолютная пропускная способность
+        public double   ka;     // ka - Среднее число занятых каналов
 
         //  Объявление приватных переменных
         private bool b = false;     // Нужна для проверки инициализации коэффициентов
@@ -95,6 +96,7 @@ namespace Diplomnaya
                 potk = p0 * mnoj;
                 qu = 1 - potk;
                 absolut = Lambda * qu;
+                ka = absolut / Mu;
                 b = true;
             }
         }
@@ -256,9 +258,13 @@ namespace Diplomnaya
                 Console.WriteLine( "Вероятность " + i + " состояния: " + "{0:0.000}", pk( (uint) i ) );
             }
             Console.WriteLine();
-            Console.WriteLine("Вероятность обработки: " + "{0:0.000}", (1 - pk( n ) ) );
+            Console.WriteLine("Относительная пропускная способность: " + "{0:0.000}", qu );
             Console.WriteLine();
-            Console.WriteLine("Вероятность отказа: " + "{0:0.000}", pk( n ) );
+            Console.WriteLine("Вероятность отказа: " + "{0:0.000}", potk );
+            Console.WriteLine();
+            Console.WriteLine("Абсолютная пропускная способность: " + "{0:0.000}", absolut);
+            Console.WriteLine();
+            Console.WriteLine("Среднее число занятых каналов: " + "{0:0.000}", ka);
         }
         // Консольный вывод условия задачи
 
