@@ -1,0 +1,9 @@
+C:\Users\vvbez\Desktop\Диплом\Программа\TestClassDiplom\TestClassDiplom\bin\Debug\TestClassDiplom.exe.config
+C:\Users\vvbez\Desktop\Диплом\Программа\TestClassDiplom\TestClassDiplom\bin\Debug\TestClassDiplom.exe
+C:\Users\vvbez\Desktop\Диплом\Программа\TestClassDiplom\TestClassDiplom\bin\Debug\TestClassDiplom.pdb
+C:\Users\vvbez\Desktop\Диплом\Программа\TestClassDiplom\TestClassDiplom\obj\Debug\TestClassDiplom.csprojResolveAssemblyReference.cache
+C:\Users\vvbez\Desktop\Диплом\Программа\TestClassDiplom\TestClassDiplom\obj\Debug\TestClassDiplom.exe
+C:\Users\vvbez\Desktop\Диплом\Программа\TestClassDiplom\TestClassDiplom\obj\Debug\TestClassDiplom.pdb
+C:\Users\vvbez\Documents\GitHub\Diplom\TestClassDiplom\TestClassDiplom\bin\Debug\TestClassDiplom.exe.config
+C:\Users\vvbez\Documents\GitHub\Diplom\TestClassDiplom\TestClassDiplom\obj\Debug\TestClassDiplom.exe
+C:\Users\vvbez\Documents\GitHub\Diplom\TestClassDiplom\TestClassDiplom\obj\Debug\TestClassDiplom.pdb
